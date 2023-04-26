@@ -14,6 +14,17 @@
   box-sizing: border-box;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: theme('colors.transparent');
+  border-radius: 10px;
+  border: 1px solid theme('colors.gris');
+}
+
 /* couleur de la page */
 body {
  
