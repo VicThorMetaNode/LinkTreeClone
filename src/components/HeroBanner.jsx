@@ -16,7 +16,7 @@ const HeroBanner = () => {
       variants={staggerContainer}
       viewport={{ once: true }}
     >
-      <section className="flex flex-col  mt-10 justify-center items-center">
+      <section className="flex flex-col pt-5 md:pt-10 justify-center items-center">
         <motion.div variants={zoomIn(0.1, 0.3)}>
           <div className="w-[10rem] h-[10rem] md:w-[13rem] md:h-[13rem] mb-2 md:mb-4">
             <img

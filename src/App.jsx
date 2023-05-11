@@ -3,7 +3,7 @@ import { LandingPage } from "./pages";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen md:h-full">
       <LandingPage />
     </div>
   );

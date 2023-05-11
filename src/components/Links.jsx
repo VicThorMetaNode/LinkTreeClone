@@ -21,7 +21,7 @@ const Links = () => {
         variants={staggerContainer}
         viewport={{ once: true }}
       >
-        <section className="flex flex-col justify-center items-center mb-10">
+        <section className="flex flex-col justify-center items-center pb-10">
           <motion.div variants={fadeIn("up", "tween", 0.5, 0.5)}>
             <a
               href="https://www.instagram.com/metanodeslabs/"
@@ -29,7 +29,7 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <GrInstagram size="1.5rem" className="text-turquoise" />
                 Instagram
               </button>

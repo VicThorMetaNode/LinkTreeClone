@@ -27,6 +27,5 @@
 
 /* couleur de la page */
 body {
- 
     background: theme('colors.main.DEFAULT') !important;  /* important = force la couleur sélectionnée */
   }
