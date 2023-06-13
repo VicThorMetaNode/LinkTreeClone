@@ -5,13 +5,11 @@ import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "../utils/motion";
 
 //IMPORT ICONS
-import {
-  GrInstagram,
-  GrTwitter,
-  GrLinkedinOption,
-  GrGithub,
-} from "react-icons/gr";
+import { GrInstagram, GrLinkedinOption } from "react-icons/gr";
 import { FiMonitor } from "react-icons/fi";
+import { SiOpensea } from "react-icons/si";
+import { BiNews } from "react-icons/bi";
+
 const Links = () => {
   return (
     <>
@@ -37,20 +35,7 @@ const Links = () => {
           </motion.div>
           <motion.div variants={fadeIn("up", "tween", 0.7, 0.5)}>
             <a
-              href="https://www.instagram.com/metanodeslabs/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-main text-xl"
-            >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
-                <GrTwitter size="1.5rem" className="text-turquoise" />
-                Twitter
-              </button>
-            </a>
-          </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
-            <a
-              href="https://www.instagram.com/metanodeslabs/"
+              href="https://www.linkedin.com/company/blockchainsucks/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-main text-xl"
@@ -61,22 +46,36 @@ const Links = () => {
               </button>
             </a>
           </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 1.1, 0.5)}>
+          <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
             <a
-              href="https://www.instagram.com/metanodeslabs/"
+              href="https://opensea.io/titathor"
               target="_blank"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
               <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
-                <GrGithub size="1.5rem" className="text-turquoise" />
-                Github
+                <SiOpensea size="1.5rem" className="text-turquoise" />
+                OpenSea
+              </button>
+            </a>
+          </motion.div>
+
+          <motion.div variants={fadeIn("up", "tween", 1.1, 0.5)}>
+            <a
+              href="https://cryptosucks.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-main text-xl"
+            >
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+                <BiNews size="1.5rem" className="text-turquoise" />
+                News
               </button>
             </a>
           </motion.div>
           <motion.div variants={fadeIn("up", "tween", 1.3, 0.5)}>
             <a
-              href="https://www.instagram.com/metanodeslabs/"
+              href="https://blockchainsucks.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-main text-xl"
