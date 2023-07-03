@@ -26,6 +26,8 @@
 }
 
 /* couleur de la page */
-body {
-    background: theme('colors.main.DEFAULT') !important;  /* important = force la couleur sélectionnée */
-  }
+body, html {
+  height: 100%;
+  @apply bg-gradient-to-r from-green-200 via-green-400 to-purple-700;
+}
+

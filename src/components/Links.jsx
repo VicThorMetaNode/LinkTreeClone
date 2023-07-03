@@ -23,11 +23,11 @@ const Links = () => {
           <motion.div variants={fadeIn("up", "tween", 0.5, 0.5)}>
             <a
               href="https://www.instagram.com/metanodeslabs/"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <GrInstagram size="1.5rem" className="text-turquoise" />
                 Instagram
               </button>
@@ -36,11 +36,11 @@ const Links = () => {
           <motion.div variants={fadeIn("up", "tween", 0.7, 0.5)}>
             <a
               href="https://www.linkedin.com/company/blockchainsucks/"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-l from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
                 <GrLinkedinOption size="1.5rem" className="text-turquoise" />
                 Linkedin
               </button>
@@ -49,11 +49,11 @@ const Links = () => {
           <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
             <a
               href="https://opensea.io/titathor"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-t from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
                 <SiOpensea size="1.5rem" className="text-turquoise" />
                 OpenSea
               </button>
@@ -63,11 +63,11 @@ const Links = () => {
           <motion.div variants={fadeIn("up", "tween", 1.1, 0.5)}>
             <a
               href="https://cryptosucks.vercel.app/"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-b from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
                 <BiNews size="1.5rem" className="text-turquoise" />
                 News
               </button>
@@ -76,11 +76,11 @@ const Links = () => {
           <motion.div variants={fadeIn("up", "tween", 1.3, 0.5)}>
             <a
               href="https://blockchainsucks.vercel.app/"
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gris text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
                 <FiMonitor size="1.5rem" className="text-turquoise" />
                 Website
               </button>

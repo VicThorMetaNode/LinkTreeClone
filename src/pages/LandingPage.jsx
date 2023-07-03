@@ -1,12 +1,18 @@
 import React from "react";
 import HeroBanner from "../components/HeroBanner";
 import Links from "../components/Links";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
   return (
     <>
-      <HeroBanner />
-      <Links />
+      <section>
+        <div>
+          <HeroBanner />
+          <Links />
+        </div>
+        <Footer />
+      </section>
     </>
   );
 };

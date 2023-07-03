@@ -27,7 +27,7 @@ module.exports = {
         light: '#668EBE',
     },
       'noir': '#1C1C1C',
-      'turquoise': '#89DFF3',
+      'turquoise': '#44ccec',
       'rose': '#D2295A',
       'blanc': '#FFFFFF',
       'alt-blanc': '#FEFEFE',

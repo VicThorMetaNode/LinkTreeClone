@@ -30,7 +30,7 @@ const HeroBanner = () => {
         <motion.div variants={zoomIn(0.2, 0.5)}>
           <a href="http://" target="_blank" rel="noopener noreferrer">
             {" "}
-            <h1 className="font-main text-white font-bold text-xl hover:text-turquoise transition duration-500 hover:scale-100">
+            <h1 className="font-main text-white font-bold text-xl md:text-2xl hover:text-turquoise transition duration-500 hover:scale-100">
               @blockchainsucks
             </h1>
           </a>
@@ -39,7 +39,7 @@ const HeroBanner = () => {
           variants={zoomIn(0.3, 0.5)}
           className="flex justify-center item-center mb-3 "
         >
-          <h2 className="font-sub text-white text-md italic text-center w-[80%] md:w-[100%]">
+          <h2 className="font-sub text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
             "Web Dev for rebel creators & unorthodox community builders"{" "}
           </h2>
         </motion.div>
