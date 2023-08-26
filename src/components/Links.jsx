@@ -40,7 +40,7 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-l from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-l from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem] ">
                 <GrLinkedinOption size="1.5rem" className="text-turquoise" />
                 Linkedin
               </button>
@@ -67,7 +67,7 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-b from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-b from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <BiNews size="1.5rem" className="text-turquoise" />
                 News
               </button>
@@ -80,7 +80,7 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 duration-[500ms] ease-out hover:bg-alt-gris hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <FiMonitor size="1.5rem" className="text-turquoise" />
                 Website
               </button>
