@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { staggerContainer, zoomIn } from "../utils/motion";
 
 //importer la photo
-import { avatar } from "../assets";
+import { avatar, logo } from "../assets";
 
 const HeroBanner = () => {
   return (
@@ -20,7 +20,7 @@ const HeroBanner = () => {
         <motion.div variants={zoomIn(0.1, 0.3)}>
           <div className="w-[10rem] h-[10rem] md:w-[13rem] md:h-[13rem] mb-2 md:mb-4">
             <img
-              src={avatar}
+              src={logo}
               alt=""
               className="rounded-full shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]"
             />
@@ -31,17 +31,26 @@ const HeroBanner = () => {
           <a href="http://" target="_blank" rel="noopener noreferrer">
             {" "}
             <h1 className="font-main text-white font-bold text-xl md:text-2xl hover:text-turquoise transition duration-500 hover:scale-100">
-              @blockchainsucks
+              @metanodelabs
             </h1>
           </a>
         </motion.div>
+
         <motion.div
-          variants={zoomIn(0.3, 0.5)}
-          className="flex justify-center item-center mb-3 "
+          variants={zoomIn(0.3, 0.6)}
+          className="flex justify-center item-center "
         >
-          <h2 className="font-sub text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
-            "Web Dev for rebel creators & unorthodox community builders"{" "}
+          <h2 className="font-sub font-black text-turquoise text-md md:text-xl  text-center w-[80%] md:w-[100%]">
+            security - privacy - hacktivism
           </h2>
+        </motion.div>
+        <motion.div
+          variants={zoomIn(0.4, 0.8)}
+          className="flex  justify-center item-center"
+        >
+          <h3 className="font-sub uppercase text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
+            "from weak to robust : transform your teams into digital defenders"
+          </h3>
         </motion.div>
       </section>
     </motion.div>

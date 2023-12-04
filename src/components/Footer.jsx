@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-20 md:mt-3 leading-tight">
-      <p className="font-sub text-center text-alt-bleu">
+      {/* <p className="font-sub text-center text-alt-bleu">
         une demo de
         <br />
         <a
@@ -17,7 +17,7 @@ const Footer = () => {
             BLOCKCHAINSUCKS.Blockchain
           </span>
         </a>
-      </p>
+      </p> */}
     </div>
   );
 };

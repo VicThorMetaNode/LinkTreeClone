@@ -20,33 +20,33 @@ const Links = () => {
         viewport={{ once: true }}
       >
         <section className="flex flex-col justify-center items-center pb-10">
-          <motion.div variants={fadeIn("up", "tween", 0.5, 0.5)}>
+          <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
             <a
-              href="https://www.instagram.com/metanodeslabs/"
+              href="https://www.instagram.com/metanodelabs/"
               target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-t from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <GrInstagram size="1.5rem" className="text-turquoise" />
                 Instagram
               </button>
             </a>
           </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 0.7, 0.5)}>
+          <motion.div variants={fadeIn("up", "tween", 1.0, 0.5)}>
             <a
-              href="https://www.linkedin.com/company/blockchainsucks/"
+              href="https://www.linkedin.com/company/metanodelabs"
               target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-l from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem] ">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-tr from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem] ">
                 <GrLinkedinOption size="1.5rem" className="text-turquoise" />
                 Linkedin
               </button>
             </a>
           </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
+          {/* <motion.div variants={fadeIn("up", "tween", 0.9, 0.5)}>
             <a
               href="https://opensea.io/titathor"
               target="_self"
@@ -72,15 +72,15 @@ const Links = () => {
                 News
               </button>
             </a>
-          </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 1.3, 0.5)}>
+          </motion.div> */}
+          <motion.div variants={fadeIn("up", "tween", 1.1, 0.5)}>
             <a
-              href="https://blockchainsucks.vercel.app/"
+              href="https://metanodelabs-alpha.vercel.app/"
               target="_self"
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
                 <FiMonitor size="1.5rem" className="text-turquoise" />
                 Website
               </button>
