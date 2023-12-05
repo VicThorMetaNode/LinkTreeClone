@@ -27,8 +27,8 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-t from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
-                <GrInstagram size="1.5rem" className="text-turquoise" />
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-br from-gray-200 via-gray-400 to-gray-600 text-vamp font-ibm uppercase rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
+                <GrInstagram size="1.5rem" className="text-vamp" />
                 Instagram
               </button>
             </a>
@@ -40,8 +40,8 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-tr from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem] ">
-                <GrLinkedinOption size="1.5rem" className="text-turquoise" />
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-bl from-gray-200 via-gray-400 to-gray-600 text-vamp font-ibm uppercase rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem] ">
+                <GrLinkedinOption size="1.5rem" className="text-vamp" />
                 Linkedin
               </button>
             </a>
@@ -80,8 +80,8 @@ const Links = () => {
               rel="noopener noreferrer"
               className="font-main text-xl"
             >
-              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-gradient-to-r from-purple-800 via-violet-900 to-purple-800 text-white rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
-                <FiMonitor size="1.5rem" className="text-turquoise" />
+              <button className="flex items-center justify-start gap-5 px-8 py-2 mt-5 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-200 via-gray-400 to-gray-600 text-vamp font-ibm uppercase rounded-xl w-[13rem] md:w-[20rem] md:gap-20 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] md:hover:scale-120 duration-[500ms] ease-out hover:bg-alt-gris md:hover:gap-[7rem]">
+                <FiMonitor size="1.5rem" className="text-vamp" />
                 Website
               </button>
             </a>

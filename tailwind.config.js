@@ -1,54 +1,72 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
+      fontSize: {
+        sm: "0.8rem",
+        md: "0.9rem",
+        base: "1rem",
+        lg: "1.15rem",
+        xl: "1.25rem",
+        "2xl": "1.563rem",
+        "3xl": "1.953rem",
+        "4xl": "2.441rem",
+        "5xl": "3.052rem",
+        "5.5xl": "4.052rem",
+        "6xl": "5.052rem",
+        "7xl": "7.052rem",
+        "8xl": "9.052rem",
+        "10xl": "10rem",
+        "11xl": "11rem",
+        "12xl": "12rem",
+      },
+      colors: {
+        transparent: "transparent",
+        main: {
+          //si tu ne déclares pas une couleur, Tailwind va utiliser la couleur 'deafult' commme propriété.
+          DEFAULT: "#3A506B",
+          light: "#668EBE",
+        },
+        noir: "#1C1C1C",
+        turquoise: "#44ccec",
+        baby_powder: "#FEFEFA",
+        coco: "#FEFEFE",
+        timber_wolf: "#D9D6CF",
+        dark: "#201C1C",
+        light: "#AFAA96",
+        light_grey: "#d0d0d0",
+        mid_grey: "#a2a3a3",
+        dark_grey: "#4f4f50",
+        honey_grey: "#D0E1D4",
+        dim_grey: "#71697A",
+        silver: "#C9C0BB",
+        blue_grey: "#C8C8CD",
+        ash_grey: "#BDBEA9",
+        smoky: "#100c08",
+        vamp: "#080808",
+        yellow: "#3E3B19",
+        banana: "#FBE7B2",
+        desert_sand: "#D2AB99",
+        granny: "#9DE093",
+        shamrock: "#5FA778",
+      },
+      fontFamily: {
+        exo: ["Exo 2", "sans-serif"],
+        ibm: ["IBM Plex Mono", "monospace"],
+        aks: ["Akshar", "sans-serif"],
+        dos: ["Dosis", "sans-serif"],
+        lek: ["Lekton", "sans-serif"],
+        mit: ["Mitr", "sans-serif"],
+      },
     },
-    fontSize: {
-      sm: '0.8rem',
-      md: '0.9rem',
-      base: '1rem',
-      lg: '1.15rem',
-      xl: '1.25rem',
-    },
-    colors: {
-      transparent: 'transparent',
-      'main': {
-        //si tu ne déclares pas une couleur, Tailwind va utiliser la couleur 'deafult' commme propriété. 
-        DEFAULT:'#3A506B',
-        light: '#668EBE',
-    },
-      'noir': '#1C1C1C',
-      'turquoise': '#44ccec',
-      'rose': '#D2295A',
-      'blanc': '#FFFFFF',
-      'alt-blanc': '#FEFEFE',
-      'bleu': '#242244',
-      'alt-bleu': '#292562',
-      'gris': '#242238',
-      'alt-gris': '#242244',
-      'icon-gris': '#2A324B',
-      'active': '#ACACE6',
-      'disabled': '#46405f',
-    },
-    fontFamily: {
-      main: ['Metrophobic', 'sans-serif'],
-      sub: ['Red Hat Mono', 'monospace'],
-    },
-    
+
+    plugins: [],
   },
- 
-  plugins: [
-  ],
-},
-}
-
-
+};

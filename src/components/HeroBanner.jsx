@@ -18,7 +18,7 @@ const HeroBanner = () => {
     >
       <section className="flex flex-col pt-5 md:pt-10 justify-center items-center">
         <motion.div variants={zoomIn(0.1, 0.3)}>
-          <div className="w-[10rem] h-[10rem] md:w-[13rem] md:h-[13rem] mb-2 md:mb-4">
+          <div className="w-[10rem] h-[10rem] md:w-[13rem] md:h-[13rem] mb-2 md:mb-4 animate-float-vertical">
             <img
               src={logo}
               alt=""
@@ -30,7 +30,7 @@ const HeroBanner = () => {
         <motion.div variants={zoomIn(0.2, 0.5)}>
           <a href="http://" target="_blank" rel="noopener noreferrer">
             {" "}
-            <h1 className="font-main text-white font-bold text-xl md:text-2xl hover:text-turquoise transition duration-500 hover:scale-100">
+            <h1 className="font-ibm text-white font-bold text-xl md:text-2xl hover:text-turquoise transition duration-500 hover:scale-100">
               @metanodelabs
             </h1>
           </a>
@@ -40,7 +40,7 @@ const HeroBanner = () => {
           variants={zoomIn(0.3, 0.6)}
           className="flex justify-center item-center "
         >
-          <h2 className="font-sub font-black text-turquoise text-md md:text-xl  text-center  md:w-[100%] uppercase my-3">
+          <h2 className="font-aks font-black text-smoky text-md md:text-2xl  text-center  md:w-[100%] uppercase my-3">
             security - privacy - hacktivism
           </h2>
         </motion.div>
@@ -48,7 +48,7 @@ const HeroBanner = () => {
           variants={zoomIn(0.4, 0.8)}
           className="flex  justify-center item-center"
         >
-          <h3 className="font-sub  text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
+          <h3 className="font-ibm capitalize  text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
             "from weak to robust : transform your teams into digital defenders"
           </h3>
         </motion.div>

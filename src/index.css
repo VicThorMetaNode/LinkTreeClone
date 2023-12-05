@@ -22,12 +22,31 @@
 ::-webkit-scrollbar-thumb {
   background-color: theme('colors.transparent');
   border-radius: 10px;
-  border: 1px solid theme('colors.gris');
+  border: 1px solid theme('colors.light_grey');
 }
 
 /* couleur de la page */
 body, html {
   height: 100%;
-  @apply bg-gradient-to-t from-slate-900 via-purple-900 to-slate-900;
+  @apply bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600;
+}
+
+@keyframes float-vertical {
+  0% {
+    
+    transform: translateY(0px);
+  }
+  50% {
+    
+    transform: translateY(-15px);
+  }
+  100% {
+    
+    transform: translateY(0px);
+  }
+}
+
+.animate-float-vertical {
+  animation: float-vertical 5s ease-in-out infinite;
 }
 
