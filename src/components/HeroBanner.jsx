@@ -40,7 +40,7 @@ const HeroBanner = () => {
           variants={zoomIn(0.3, 0.6)}
           className="flex justify-center item-center "
         >
-          <h2 className="font-sub font-black text-turquoise text-md md:text-xl  text-center w-[80%] md:w-[100%]">
+          <h2 className="font-sub font-black text-turquoise text-md md:text-xl  text-center  md:w-[100%] uppercase my-3">
             security - privacy - hacktivism
           </h2>
         </motion.div>
@@ -48,7 +48,7 @@ const HeroBanner = () => {
           variants={zoomIn(0.4, 0.8)}
           className="flex  justify-center item-center"
         >
-          <h3 className="font-sub uppercase text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
+          <h3 className="font-sub  text-white text-md md:text-xl italic text-center w-[80%] md:w-[100%]">
             "from weak to robust : transform your teams into digital defenders"
           </h3>
         </motion.div>

@@ -28,6 +28,6 @@
 /* couleur de la page */
 body, html {
   height: 100%;
-  @apply bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900;
+  @apply bg-gradient-to-t from-slate-900 via-purple-900 to-slate-900;
 }
 
